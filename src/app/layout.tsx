@@ -35,6 +35,13 @@ export const metadata: Metadata = {
       "Connecting engineering teams with the global technical community through actionable insights and real customer engagement.",
     creator: "@manaiakalani",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "16x16 32x32" },
+      { url: "/favicon.png", type: "image/png", sizes: "180x180" },
+    ],
+    apple: "/apple-icon.png",
+  },
   robots: {
     index: true,
     follow: true,
