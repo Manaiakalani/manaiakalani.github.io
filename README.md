@@ -4,6 +4,8 @@ Personal portfolio & project hub for **Maximilian Stein** — Community Strategy
 
 🌐 **Live:** [manaiakalani.github.io](https://manaiakalani.github.io)
 
+![manaiakalani.github.io home](docs/screenshot.png)
+
 ## Tech Stack
 
 | Layer      | Technology                                      |
