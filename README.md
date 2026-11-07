@@ -1,6 +1,6 @@
 # manaiakalani.github.io
 
-Personal portfolio & project hub for **Maximilian Stein** — Community Strategy Lead for **Microsoft Intune** and **Microsoft Security** within Customer Experience Engineering (CxE).
+Personal portfolio & project hub for **Maximilian Stein**: Community Strategy Lead for **Microsoft Intune** and **Microsoft Security** within Customer Experience Engineering (CxE).
 
 🌐 **Live:** [manaiakalani.github.io](https://manaiakalani.github.io)
 
