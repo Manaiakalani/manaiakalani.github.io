@@ -1,16 +1,17 @@
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-import { FlatCompat } from "@eslint/eslintrc";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
+import nextVitals from "eslint-config-next/core-web-vitals";
+import nextTs from "eslint-config-next/typescript";
 
 const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
+  ...nextVitals,
+  ...nextTs,
+  {
+    // New in eslint-config-next 16. The two hits read browser-only state
+    // (localStorage, prefers-reduced-motion) after hydration on purpose.
+    rules: { "react-hooks/set-state-in-effect": "warn" },
+  },
+  {
+    ignores: [".next/**", "out/**", "build/**", "next-env.d.ts", "test-results/**", "playwright-report/**"],
+  },
 ];
 
 export default eslintConfig;

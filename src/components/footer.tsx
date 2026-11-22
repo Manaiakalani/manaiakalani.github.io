@@ -1,4 +1,5 @@
-import { Github, Linkedin, Twitter, Instagram, Youtube, Cloud } from "lucide-react";
+import { Cloud } from "lucide-react";
+import { Github, Instagram, Linkedin, Twitter, Youtube } from "@/components/brand-icons";
 
 const SOCIAL_LINKS = [
   {
